@@ -1,0 +1,33 @@
+{
+  "name": "marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace donde el usuario pueda ofrecer y comprar productos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilhenc36/Marketplace.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars",
+    "mongoose"
+  ],
+  "author": "Wilhen Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilhenc36/Marketplace/issues"
+  },
+  "homepage": "https://github.com/wilhenc36/Marketplace#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.10.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
