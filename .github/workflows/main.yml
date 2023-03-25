@@ -1,9 +1,0 @@
-name: Clonar repositorio
-
-on: [push]
-
-jobs:
-  clonar-repositorio:
-    runs-on: ubuntu-latest
-    env:
-      TOKEN: ${{ secrets.TOKEN }}
