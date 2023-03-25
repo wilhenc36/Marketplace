@@ -11,4 +11,4 @@ jobs:
       - name: Clonar repositorio
         run: |
           git config --global http.extraheader "Authorization: token $TOKEN"
-          git clone https://github.com/wilhenc36/Marketplace
+          git clone https://github.com/wilhenc36/Marketplace.git
