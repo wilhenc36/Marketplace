@@ -8,7 +8,8 @@ jobs:
     env:
       TOKEN: ${{ secrets.TOKEN }}
     steps:
-      - name: Clonar repositorio
-        run: |
-          git config --global http.extraheader "Authorization: token $TOKEN"
-          git clone https://github.com/wilhenc36/Marketplace.git
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ env.TOKEN }}
