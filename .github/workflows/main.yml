@@ -7,9 +7,3 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TOKEN: ${{ secrets.TOKEN }}
-    steps:
-      - name: Clone repository
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
-          token: ${{ env.TOKEN }}
